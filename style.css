@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    width: 100%;
+    height:7.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.paragraph{
+    width: 40%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+    margin-left: -600px;
+    font-size: 13px;
+}
+.icons{
+    width: 20%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.icons img{
+    width: 20px;
+    height: 20px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.search{
+    width: 20%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.apply{
+    width: 12%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F9DD00;
+    margin-right: -400px;
+    cursor: pointer;
+
+}
+.search img{
+    height:20px;
+    width: 20px;
+    cursor: pointer;
+}
+.apply h1{
+    font-size: 18px;
+    font-weight: 700;
+}
+.second-header{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 0.1px solid black;
+}
+.logo{
+    width: 38%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: -180px;
+    cursor: pointer;
+}
+.links {
+    width: 33.33%;
+    height: 7.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30px;
+}
+.links h2{
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.empty{
+    width: 33.33%;
+}
+.logo img{
+    width: 100px;
+}
+.links h2:hover{
+    cursor: pointer;
+    border-bottom: 2.5px solid #F9DD00 ;
+}
+.third{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.linker{
+    height: 12vh;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.linker h4{
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.linker p{
+    font-weight: 300;
+    font-size: 14px;
+}
+.fourth{
+    width: 100%;
+    height: 24vh;
+    padding-top: 10vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -7vh;
+}
+.fourth h6{
+    font-size: 60px;
+    font-weight: 700;
+}
+.fourth p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+.fifth{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+.forms{
+    width: 35%;
+}
+.empty-1{
+    width: 12%;
+}
+.image{
+    width: 40%;
+}
+.image img{
+    width: 570px;
+    height: 855px;
+}
+.first1{
+    width: 100%;
+    display: flex;
+}
+.type-1 {
+  width: 51%;
+  border: 1px solid lightgrey;
+  margin-right: 15px;
+  height: 60px;
+}
+.type-2 {
+    width: 49%;
+    border: 1px solid lightgrey;
+    transition: .3s border-color;
+}
+.type-1::placeholder{
+    font-size: 20px;
+    font-weight: 300;
+    color: gray;
+    padding-left: 15px;
+}
+.type-2::placeholder{
+    font-size: 20px;
+    font-weight: 300;
+    color: gray;
+    padding-left: 15px;
+}
+.second2{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+}
+.type-3 {
+    width: 16%;
+    border: 1px solid lightgrey;
+    margin-right: 15px;
+    height: 60px;
+}
+.type-4 {
+    width: 84%;
+    border: 1px solid lightgrey;
+    height: 60px;
+}
+.type-3::placeholder{
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+}
+.type-4::placeholder{
+    font-size: 20px;
+    font-weight: 300;
+    color: gray;
+    padding-left: 20px;
+}
+.third3{
+    width: 100%;
+    margin-top: 15px;
+}
+.type-5 {
+    width: 98.8%;
+    border: 1px solid lightgrey;
+    height: 60px;
+}
+.type-5::placeholder{
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    padding-left: 20px;
+}
+.fourth4{
+    width: 100%;
+    margin-top: 15px;
+}
+textarea {
+    width:98.8%;
+    resize: vertical;
+    border:0;
+    border: 1px solid lightgrey;
+    height:240px;
+  }
+textarea::placeholder{
+    font-size: 20px;
+    font-weight: 300;
+    color: gray;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.bttn{
+    width: 100%;
+    margin-top: 15px;
+}
+.btn{
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    height: 54px;
+    background-color: #FFCD05;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #deb204;
+}
+.sixth{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    padding-top: 70vh;
+    padding-left: 70px;
+}
+.empty-2{
+    width: 10%;
+}
+.empty-3{
+    width: 30%;
+}
+.f1rst{
+    width: 20%;
+}
+.s2cond{
+    width: 20%;
+}
+.th3rd{
+    width: 20%;
+}
+.f1rst ul{
+    list-style-type: none;
+}
+.f1rst ul li{
+    padding-top: 10px;
+    color: #8F8F8F;
+    font-size: 13px;
+    cursor: pointer;
+}
+.f1rst ul li:first-child{
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    cursor:auto;
+}
+.s2cond ul{
+    list-style-type: none;
+}
+.s2cond ul li{
+    padding-top: 10px;
+    color: #8F8F8F;
+    font-size: 13px;
+    cursor: pointer;
+}
+.s2cond ul li:first-child{
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    cursor:auto;
+}
+
+.th3rd ul{
+    list-style-type: none;
+}
+.th3rd ul li{
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    font-weight: 300;
+    margin-top: 40px;
+}
+.last{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.icons2 img{
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.prgrph{
+    width: 33.33%;
+}
+.logo2{
+    width: 33.33%;
+}
+.icons2{
+    width: 33.33%;
+}
+.logo2 img{
+    width: 163px;
+    height: 50px;
+    cursor: pointer;
+}
+.prgrph{
+    color: #323232;
+    font-weight: 300;
+    font-size: 13px;
+}
